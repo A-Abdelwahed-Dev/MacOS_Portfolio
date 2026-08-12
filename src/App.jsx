@@ -1,10 +1,11 @@
 import './App.css'
-import Navbar from './components/Navbar'
+import { Navbar, Welcome } from './components/index'
 function App() {
 
   return (
     <main>
       <Navbar />
+      <Welcome />
     </main>
   )
 }
